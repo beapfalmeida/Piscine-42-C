@@ -10,7 +10,6 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
 
 int	ft_fibonacci(int index)
 {
@@ -28,9 +27,3 @@ int	ft_fibonacci(int index)
 		return (result);
 	}
 }
-
-/*int	main(void)
-{
-	int	i = -2358;
-	printf("The element nr.%i in the Fibonacci sequence is %i", i, ft_fibonacci(i));
-}*/

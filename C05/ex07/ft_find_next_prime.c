@@ -10,7 +10,6 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
 
 int	ft_is_prime(int nb)
 {
@@ -37,10 +36,3 @@ int	ft_find_next_prime(int nb)
 	else
 		return (ft_find_next_prime(nb + 1));
 }
-
-/*int     main(void)
-{
-      int n = 20;
-      printf("What is the first prime number after %i? %i", n,
-       ft_find_next_prime(n));
-}*/

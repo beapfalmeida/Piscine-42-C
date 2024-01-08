@@ -9,7 +9,7 @@
 /*   Updated: 2023/12/19 18:58:34 by bpaiva-f         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-#include <stdio.h>
+
 
 char	*ft_strncpy(char *dest, const char *src, int n)
 {
@@ -28,11 +28,3 @@ char	*ft_strncpy(char *dest, const char *src, int n)
 	}
 	return (dest);
 }
-
-/*int	main()
-{
-	char	source[] = "Hello";
-	char	dest[5];
-
-	printf("Destination: %s", ft_strncpy(dest, source, 7));
-}*/

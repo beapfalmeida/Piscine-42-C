@@ -9,7 +9,6 @@
 /*   Updated: 2023/12/19 12:15:18 by bpaiva-f         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-#include <unistd.h>
 
 void	ft_putstr(char *str)
 {
@@ -22,8 +21,3 @@ void	ft_putstr(char *str)
 		i++;
 	}
 }
-/*int main(void)
-{	
-	char str[] = {'H', 'E', 'L', 'L', 'O'};
-	ft_putstr(str);
-}*/

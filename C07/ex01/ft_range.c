@@ -11,7 +11,6 @@
 /* ************************************************************************** */
 
 #include <stdlib.h>
-#include <stdio.h>
 
 int	*ft_range(int min, int max)
 {
@@ -32,18 +31,3 @@ int	*ft_range(int min, int max)
 	}
 	return (array);
 }
-
-/*int	main(void)
-{
-	int	min;
-	int	max;
-	int	*array;
-	int	i;
-
-	min = 3;
-	max = 10;
-	array = ft_range(min, max);
-	printf("Whith max as %i and min as %i, my array is:\n", max, min);
-	for (i = 0; i < max - min; i++) 
-		printf("array[%i] = %i\n", i, array[i]);
-}*/

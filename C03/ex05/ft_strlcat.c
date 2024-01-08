@@ -10,9 +10,6 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
-#include <string.h>
-
 int	ft_str_len(char *str)
 {
 	int	i;
@@ -44,14 +41,3 @@ unsigned int	ft_strlcat(char *dest, char *src, unsigned int size)
 	dest[length_dest + k] = '\0';
 	return (length_dest + length_src);
 }
-
-/*int main(void)
-{
-	char src[] = "abcd";
-	char dest[] = "lole";
-	int n = 2;
-	unsigned int result;
-	
-	result = ft_strlcat(dest, src, n);
-	printf("resultado: %u", result);
-}*/

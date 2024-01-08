@@ -9,7 +9,6 @@
 /*   Updated: 2023/12/19 19:43:49 by bpaiva-f         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-#include <stdio.h>
 
 char	*ft_strlowcase(char *str)
 {
@@ -26,10 +25,3 @@ char	*ft_strlowcase(char *str)
 	}
 	return (str);
 }
-/*int main(void)
-{
-    char str1[] = "ABCD";
-
-    printf("%s", ft_strlowcase(str1));
-    return 0;
-}*/

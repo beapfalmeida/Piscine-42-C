@@ -10,9 +10,6 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
-#include <string.h>
-
 char	*ft_strcat(char *dest, char *src)
 {
 	int	i;
@@ -33,15 +30,3 @@ char	*ft_strcat(char *dest, char *src)
 	dest[i] = '\0';
 	return (dest);
 }
-
-/*int main(void)
-{
-	char src[] = "abc";
-	char dest[6] = "lol";
-	char *result;
-	char *sup;
-	
-	result = ft_strcat(dest, src);
-	sup = strcat(dest, src);
-	printf("resultado: %s;\nsuposto: %s;", result, sup);
-}*/

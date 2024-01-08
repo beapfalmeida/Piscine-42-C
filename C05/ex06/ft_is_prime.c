@@ -10,8 +10,6 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
-
 int	ft_is_prime(int nb)
 {
 	int	i;
@@ -29,9 +27,3 @@ int	ft_is_prime(int nb)
 	}
 	return (1);
 }
-
-/*int	main(void)
-{
-	int n = 17;
-	printf("Is %i a prime number? %i", n, ft_is_prime(n));
-}*/

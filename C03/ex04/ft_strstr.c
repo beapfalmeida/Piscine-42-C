@@ -10,9 +10,6 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
-#include <string.h>
-
 char	*ft_strstr(char *str, char *to_find)
 {
 	int	i;
@@ -33,14 +30,3 @@ char	*ft_strstr(char *str, char *to_find)
 	}
 	return (0);
 }
-
-/*#include <stdio.h>
-#include <string.h>
-
-int main(void)
-{
-	char str[] = "Bananapplexa";
-	char to_find[] = "apple";
-	printf("Result: %s. Suposto: %s", ft_strstr(str, to_find),
-	 strstr(str, to_find));
-}*/

@@ -11,7 +11,6 @@
 /* ************************************************************************** */
 
 #include <stdlib.h>
-#include <stdio.h>
 
 int	ft_ultimate_range(int **range, int min, int max)
 {
@@ -35,17 +34,4 @@ int	ft_ultimate_range(int **range, int min, int max)
 	}
 	*range = buffer;
 	return (i);
-}
-
-int	main(void)
-{
-	int	min;
-	int	max;
-	int	*array1;
-	int	**array;
-
-	array = &array1;
-	min = 3;
-	max = 3;
-	printf("The function returns: %d", ft_ultimate_range(array, min, max));
 }

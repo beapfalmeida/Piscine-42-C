@@ -10,8 +10,6 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
-
 int	ft_iterative_factorial(int nb)
 {
 	int	factorial;
@@ -28,9 +26,3 @@ int	ft_iterative_factorial(int nb)
 	}
 	return (factorial);
 }
-
-/*int	main(void)
-{
-	int nb = -1;
-	printf("%i! = %i", nb, ft_iterative_factorial(nb));
-}*/

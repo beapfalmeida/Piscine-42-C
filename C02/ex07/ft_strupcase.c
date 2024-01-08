@@ -9,7 +9,6 @@
 /*   Updated: 2023/12/19 19:42:51 by bpaiva-f         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-#include <stdio.h>
 
 char	*ft_strupcase(char *str)
 {
@@ -26,11 +25,3 @@ char	*ft_strupcase(char *str)
 	}
 	return (str);
 }
-
-/*int main(void) {
-    char str1[] = "abcd";
-
-    printf("%s", ft_strupcase(str1));
-
-    return 0;
-}*/

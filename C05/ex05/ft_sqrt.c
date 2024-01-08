@@ -10,8 +10,6 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
-
 int	ft_sqrt(int nb)
 {
 	long	i;
@@ -29,9 +27,3 @@ int	ft_sqrt(int nb)
 	}
 	return (0);
 }
-
-/*int	main(void)
-{
-	int	n = -4562894;
-	printf("Square root of %i is %i", n, ft_sqrt(n));
-}*/

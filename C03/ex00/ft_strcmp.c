@@ -10,9 +10,6 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
-#include <string.h>
-
 int	ft_strcmp(char *s1, char *s2)
 {
 	int	i;
@@ -31,15 +28,3 @@ int	ft_strcmp(char *s1, char *s2)
 	}
 	return (s1[i] - s2[i]);
 }
-
-/*int	main(void)
-{
-	int	i;
-	int	j;
-	char	s1[] = "Hey";
-	char	s2[] = "Banana";
-	i = ft_strcmp(s1, s2);
-	j = strcmp(s1, s2);
-	printf("%i, %i", i, j);
-	return (0);
-}*/

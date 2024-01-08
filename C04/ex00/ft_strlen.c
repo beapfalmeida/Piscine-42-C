@@ -10,7 +10,6 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
 
 int	ft_strlen(char *str)
 {
@@ -21,11 +20,3 @@ int	ft_strlen(char *str)
 		i++;
 	return (i);
 }
-
-/*int	main(int argc, char **argv)
-{
-	if (argc == 2)
-		printf("Length of %s is %d", argv[1], ft_strlen(argv[1]));
-	else
-		printf("Please provide just one word!");
-}*/

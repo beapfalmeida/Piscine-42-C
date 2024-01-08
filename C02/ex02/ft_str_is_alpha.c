@@ -10,7 +10,6 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
 
 int	ft_str_is_alpha(char *str)
 {
@@ -33,15 +32,3 @@ int	ft_str_is_alpha(char *str)
 	}
 	return (result);
 }
-
-/*int main(void) {
-    char str1[] = "a12a5";
-    char str2[] = "aBcD";
-    char str3[] = "";
-
-    printf("%s: %d\n", str1, ft_str_is_alpha(str1));
-    printf("%s: %d\n", str2, ft_str_is_alpha(str2));
-    printf("%s: %d\n", str3, ft_str_is_alpha(str3));
-
-    return 0;
-}*/

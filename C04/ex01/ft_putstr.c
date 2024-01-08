@@ -23,9 +23,3 @@ void	ft_putstr(char *str)
 		i++;
 	}
 }
-
-/*int main(void)
-{
-	char str[] = "Beatriz";
-	ft_putstr(str);
-}*/
