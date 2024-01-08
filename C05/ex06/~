@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+int	ft_is_prime(int nb)
+{
+	int	i;
+	i = 2;
+	if (nb <= 1)
+		return (0);
+	while (i < nb)
+	{
+		if (nb % i == 0)
+			return (1);
+		i++;
+	}
+	return (1);
+}
+
+int	main(void)
+{
+	printf("Is %i a prime numeber? %b", n, ft_is_prime(n));
+}
